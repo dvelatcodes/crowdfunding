@@ -5,6 +5,7 @@
 
 :root {
   --moderate-cyan: hsl(176, 50%, 47%);
+  --dark-cyan: hsl(176, 72%, 28%);
 }
 
 * {
