@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>
-      
-    </div>
+    <header className='w-screen h-[40vh]'>
+kbbkbkbk
+    </header>
   )
 }
 
