@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Crowdfunding product page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Design preview for the Crowdfunding product page coding challenge](./design/desktop-preview.jpg)
 
 ## Available Scripts
 
