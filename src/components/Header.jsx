@@ -4,7 +4,6 @@ import { useStateContext } from "../utils/contextProvider";
 const Header = () => {
   // const [ham, setHam] = useState("open");
   // const triggerHam = () => {
-  //   if (ham === "open") setHam("close");
   const {ham, triggerHam} = useStateContext();
 
   return (
