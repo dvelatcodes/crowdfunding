@@ -1,13 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
+import { useStateContext } from "../utils/contextProvider";
 
 const Header = () => {
-  const [ham, setHam] = useState("open");
-  const triggerHam = () => {
-    if (ham === "open") setHam("close");
-    else {
-      setHam("open");
-    }
-  };
+  // const [ham, setHam] = useState("open");
+  // const triggerHam = () => {
+  //   if (ham === "open") setHam("close");
+  //   else {
+  //     setHam("open");
+  //   }
+  // };
+  const {ham, triggerHam} = useStateContext();
+
   return (
     <header className="w-screen h-[40vh] pt-6">
       {ham === "open" ? (
