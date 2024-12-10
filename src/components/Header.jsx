@@ -10,6 +10,9 @@ const Header = () => {
   }
   return (
     <header className='w-screen h-[40vh] pt-6'>
+      {
+        ham === 'open'? <img src='/images/icon-hamburger.svg' alt='hamburger open' className='absolute right-8 top-7 z-10'/> : <img src='/images/icon-close-menu.svg' alt='hamburger close' className='absolute right-8 top-7 z-10'/>
+      }
       <div className="shades1 w-screen h-[20vh] absolute left-0 top-0"></div>
       <div className={`${ham === 'open'? 'hidden' : 'block'} shades2 absolute w-screen h-screen top-0 left-0 md:hidden`}></div>
       <div className="w-[90vw] md:w-[80vw] m-auto flex justify-between relative z-10">
