@@ -5,7 +5,6 @@ const Header = () => {
   // const [ham, setHam] = useState("open");
   // const triggerHam = () => {
   //   if (ham === "open") setHam("close");
-  //   else 
   const {ham, triggerHam} = useStateContext();
 
   return (
