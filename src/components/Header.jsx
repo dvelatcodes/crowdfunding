@@ -8,7 +8,6 @@ const Header = () => {
   //   else {
   //     setHam("open");
   //   }
-  // };
   const {ham, triggerHam} = useStateContext();
 
   return (
