@@ -3,7 +3,6 @@ import { useStateContext } from "../utils/contextProvider";
 
 const Header = () => {
   // const [ham, setHam] = useState("open");
-  // const triggerHam = () => {
   const {ham, triggerHam} = useStateContext();
 
   return (
