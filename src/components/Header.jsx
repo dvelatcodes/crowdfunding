@@ -14,14 +14,14 @@ const Header = () => {
         <img
           src="/images/icon-hamburger.svg"
           alt="hamburger open"
-          className="absolute right-8 top-7 z-30"
+          className="absolute right-8 top-7 z-30 md:hidden"
           onClick={triggerHam}
         />
       ) : (
         <img
           src="/images/icon-close-menu.svg"
           alt="hamburger close"
-          className="absolute right-8 top-7 z-30"
+          className="absolute right-8 top-7 z-30 md:hidden"
           onClick={triggerHam}
         />
       )}
