@@ -30,6 +30,10 @@ header{
   background: linear-gradient(rgba(0, 0, 0, 0.352), rgba(255, 255, 255, 0));
 }
 
+.shades2 {
+  background-color: rgba(0, 0, 0, 0.18);
+}
+
 @media screen and (max-width: 760px) {
   header{
     background-image: url('./images/image-hero-mobile.jpg');
