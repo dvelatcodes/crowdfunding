@@ -2,7 +2,6 @@ import React from "react";
 import { useStateContext } from "../utils/contextProvider";
 
 const Header = () => {
-  // const [ham, setHam] = useState("open");
   const {ham, triggerHam} = useStateContext();
 
   return (
