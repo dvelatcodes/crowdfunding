@@ -4,13 +4,18 @@ const Main = () => {
   return (
     <main className="w-screen bg-slate-100">
       <div className="masterCraft w-[90vw] md:w-[80vw]">
-        <div className="">
-          <img src="" alt="" />
+        <div className="w-full">
+          <img src="/images/logo-mastercraft.svg" alt="mastercraft logo" />
           <h1>
-            A beautiful & handcrafted monitor stand to reduce neck and eye
-            strain.
+            Mastercraft Bamboo Monitor Riser
           </h1>
-          <p></p>
+          <p>
+          A beautiful & handcrafted monitor stand to reduce neck and eye
+          strain.
+          </p>
+          <div className="w-full">
+            
+          </div>
         </div>
         <div className="range"></div>
       </div>
