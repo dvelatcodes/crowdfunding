@@ -3,8 +3,8 @@ import React from "react";
 const Main = () => {
   return (
     <main className="w-screen bg-slate-100">
-      <div className="masterCraft w-[90vw] md:w-[80vw] m-auto relative">
-        <div className="w-full bg-white">
+      <div className="masterCraft w-[90vw] md:w-[80vw] m-auto relative pt-60">
+        <div className="w-full bg-red-500 absolute left-0 right-0 -top-14">
           <img src="/images/logo-mastercraft.svg" alt="mastercraft logo" />
           <h1 className="text-center">Mastercraft Bamboo Monitor Riser</h1>
           <p className="text-center">
