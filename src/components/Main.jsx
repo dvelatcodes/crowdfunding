@@ -14,7 +14,7 @@ const Main = () => {
           </p>
           <div className="w-full flex justify-around">
             <Button text="Back this project" color="hsl(176, 50%, 47%)" swapColor="swapColor"/>
-            <div className="md:bg-slate-100 md:flex md:gap-x-6 md:rounded-full md:items-center md:pr-8">
+            <div className="md:bg-slate-100 md:flex md:gap-x-6 md:rounded-full md:items-center md:pr-8 cursor-pointer">
               <img src="/images/icon-bookmark.svg" alt="bookmark" />
               <span className="hidden md:inline font-bold text-slate-600">Bookmark</span>
             </div>
