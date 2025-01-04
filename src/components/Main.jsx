@@ -34,7 +34,7 @@ const Main = () => {
               <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fill-rule="evenodd">
                   <circle fill="#2F2F2F" cx="28" cy="28" r="28" />
-                  <path fill="#B1B1B1" d="M23 19v18l5-5.058L33 37V19z" />
+                  <path fill={`${bookmarkOn? "rgb(255, 255, 255)" : "#B1B1B1"}`} d="M23 19v18l5-5.058L33 37V19z" />
                 </g>
               </svg>
               <span className={`hidden md:inline font-bold ${bookmarkOn? "text-green-600" : "text-slate-600"}`}>
