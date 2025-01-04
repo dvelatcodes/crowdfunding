@@ -45,6 +45,9 @@ const Main = () => {
         </div>
         <div className="range"></div>
       </div>
+      <div className="">
+        
+      </div>
     </main>
   );
 };
