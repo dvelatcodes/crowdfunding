@@ -38,7 +38,7 @@ const Main = () => {
                 </g>
               </svg>
               <span className={`hidden md:inline font-bold ${bookmarkOn? "text-teal-600" : "text-slate-600"}`}>
-                Bookmark
+                {bookmarkOn? "Bookmarked" : "Bookmark"}
               </span>
             </div>
           </div>
