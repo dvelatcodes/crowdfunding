@@ -37,7 +37,7 @@ const Main = () => {
                   <path fill={`${bookmarkOn? "rgb(255, 255, 255)" : "#B1B1B1"}`} d="M23 19v18l5-5.058L33 37V19z" />
                 </g>
               </svg>
-              <span className={`hidden md:inline font-bold ${bookmarkOn? "text-green-600" : "text-slate-600"}`}>
+              <span className={`hidden md:inline font-bold ${bookmarkOn? "text-teal-600" : "text-slate-600"}`}>
                 Bookmark
               </span>
             </div>
