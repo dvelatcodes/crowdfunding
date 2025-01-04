@@ -34,6 +34,14 @@ header{
   background-color: rgba(0, 0, 0, 0.18);
 }
 
+.swapColor{
+  background-color: var(--moderate-cyan);
+}
+
+.swapColor:hover{
+  background-color: var(--dark-cyan);
+}
+
 
 @media screen and (max-width: 760px) {
   header{
