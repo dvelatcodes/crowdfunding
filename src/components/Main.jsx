@@ -57,16 +57,28 @@ const Main = () => {
         <div className="range w-full bg-white py-6 md:pl-8 xl:pl-12">
           <div className="flex flex-col md:flex-row gap-y-4 md:gap-y-0 md:gap-x-6 lg:gap-x-12 xl:gap-x-28 2xl:gap-x-36 items-center">
             <div className="">
-              <h2 className="text-center md:text-left text-3xl mb-3 font-bold">$89,914</h2>
-              <span className="text-center md:text-left text-zinc-500">of $100,000 backed</span>
+              <h2 className="text-center md:text-left text-3xl mb-3 font-bold">
+                $89,914
+              </h2>
+              <span className="text-center md:text-left text-zinc-500">
+                of $100,000 backed
+              </span>
             </div>
             <div className="">
-              <h2 className="text-center md:text-left text-3xl mb-3 font-bold">5,007</h2>
-              <span className="text-center md:text-left text-zinc-500">total backers</span>
+              <h2 className="text-center md:text-left text-3xl mb-3 font-bold">
+                5,007
+              </h2>
+              <span className="text-center md:text-left text-zinc-500">
+                total backers
+              </span>
             </div>
             <div className="">
-              <h2 className="text-center md:text-left text-3xl mb-3 font-bold">56</h2>
-              <span className="text-center md:text-left text-zinc-500">days left</span>
+              <h2 className="text-center md:text-left text-3xl mb-3 font-bold">
+                56
+              </h2>
+              <span className="text-center md:text-left text-zinc-500">
+                days left
+              </span>
             </div>
           </div>
           <div className="w-10/12 md:w-11/12 h-[1.5vh] rounded-lg bg-slate-100 mt-6 m-auto md:ml-0 md:mr-0">
