@@ -11,7 +11,7 @@ const Main = () => {
   return (
     <main className="w-screen bg-slate-100">
       <div className="masterCraft w-[90vw] md:w-[60vw] lg:w-[50vw] m-auto relative pt-60">
-        <div className="w-full bg-white absolute left-0 right-0 -top-14 rounded-lg pt-12 pb-8 px-4">
+        <div className="w-full bg-white absolute left-0 right-0 -top-14 rounded-lg pt-12 pb-8 px-4 md:px-0">
           <img
             src="/images/logo-mastercraft.svg"
             alt="mastercraft logo"
@@ -24,7 +24,7 @@ const Main = () => {
             A beautiful & handcrafted monitor stand to reduce neck and eye
             strain.
           </p>
-          <div className="w-full flex justify-around">
+          <div className="w-full flex justify-around md:justify-normal md:pl-8 xl:pl-24">
             <Button text="Back this project" swapColor="swapColor" />
             <div
               className="md:bg-slate-100 md:flex md:gap-x-6 md:rounded-full md:items-center md:pr-8 cursor-pointer"
@@ -54,7 +54,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="range w-full bg-white md:px-4 py-6 md:pl-8 xl:pl-24">
+        <div className="range w-full bg-white py-6 md:pl-8 xl:pl-24">
           <div className="flex flex-col md:flex-row gap-y-4 md:gap-y-0 md:gap-x-6 lg:gap-x-12 xl:gap-x-20 items-center">
             <div className="">
               <h2 className="text-center md:text-left text-3xl mb-3 font-bold">$89,914</h2>
