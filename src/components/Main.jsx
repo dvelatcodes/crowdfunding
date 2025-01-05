@@ -64,7 +64,7 @@ const Main = () => {
                 of $100,000 backed
               </span>
             </div>
-            <div className="">
+            <div className="relative after:content-[''] after:w-[25vw] after:h-[0.05rem] after:absolute after:-bottom-8 after:left-0 md:after:left-auto after:right-0 after:m-auto md:after:m-0 md:after:bottom-0 md:after:-right-2 lg:after:-right-5 xl:after:-right-10 2xl:after:-right-12 md:after:top-0 md:after:h-[9vh] xl:after:h-[8vh] 2xl:after:h-[7vh] md:after:w-[0.05rem] after:bg-zinc-600 after:opacity-45">
               <h2 className="text-center md:text-left text-3xl mb-3 font-bold">
                 5,007
               </h2>
