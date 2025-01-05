@@ -54,23 +54,23 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="range w-full bg-white px-4 py-6">
-          <div className="flex flex-col md:flex-row gap-y-4 md:gap-y-0 md:gap-x-6">
+        <div className="range w-full bg-white md:px-4 py-6">
+          <div className="flex flex-col md:flex-row gap-y-4 md:gap-y-0 md:gap-x-6 items-center md:justify-around flex-wrap">
             <div className="">
-              <h2>$89,914</h2>
-              <span>of $100,000 backed</span>
+              <h2 className="text-center md:text-left">$89,914</h2>
+              <span className="text-center md:text-left">of $100,000 backed</span>
             </div>
             <div className="">
-              <h2>5,007</h2>
-              <span>total backers</span>
+              <h2 className="text-center md:text-left">5,007</h2>
+              <span className="text-center md:text-left">total backers</span>
             </div>
             <div className="">
-              <h2>56</h2>
-              <span>days left</span>
+              <h2 className="text-center md:text-left">56</h2>
+              <span className="text-center md:text-left">days left</span>
             </div>
-          </div>
-          <div className="mt-6 w-9/12 h-[3vh] rounded-lg bg-slate-200">
+            <div className="w-9/12 h-[3vh] rounded-lg bg-slate-200 md:mt-6">
             <div className=""></div>
+          </div>
           </div>
         </div>
       </div>
