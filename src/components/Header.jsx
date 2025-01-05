@@ -25,7 +25,7 @@ const Header = () => {
       <div
         className={`${
           ham === "open" ? "hidden" : "block"
-        } shades2 absolute w-screen h-screen top-0 left-0 md:hidden`}
+        } shades2 absolute z-10 w-screen h-screen top-0 left-0 md:hidden`}
       ></div>
       <div className="w-[90vw] md:w-[80vw] m-auto flex justify-between relative z-10">
         <img src="/images/logo.svg" alt="logo" />
