@@ -55,7 +55,7 @@ const Main = () => {
           </div>
         </div>
         <div className="range w-full bg-white py-6 md:pl-8 xl:pl-12">
-          <div className="flex flex-col md:flex-row gap-y-4 md:gap-y-0 md:gap-x-6 lg:gap-x-12 xl:gap-x-20 items-center">
+          <div className="flex flex-col md:flex-row gap-y-4 md:gap-y-0 md:gap-x-6 lg:gap-x-12 xl:gap-x-28 2xl:gap-x-36 items-center">
             <div className="">
               <h2 className="text-center md:text-left text-3xl mb-3 font-bold">$89,914</h2>
               <span className="text-center md:text-left text-slate-500">of $100,000 backed</span>
