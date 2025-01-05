@@ -1,13 +1,12 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Button from "./Button";
 
 const Main = () => {
   const [bookmarkOn, setBookmarkOn] = useState(false);
 
-  const setBookmark = ()=>{
-    bookmarkOn === false? setBookmarkOn(true) : setBookmarkOn(false);
-  }
-
+  const setBookmark = () => {
+    bookmarkOn === false ? setBookmarkOn(true) : setBookmarkOn(false);
+  };
 
   return (
     <main className="w-screen bg-slate-100">
@@ -26,28 +25,56 @@ const Main = () => {
             strain.
           </p>
           <div className="w-full flex justify-around">
-            <Button
-              text="Back this project"
-              swapColor="swapColor"
-            />
-            <div className="md:bg-slate-100 md:flex md:gap-x-6 md:rounded-full md:items-center md:pr-8 cursor-pointer" onClick={setBookmark}>
+            <Button text="Back this project" swapColor="swapColor" />
+            <div
+              className="md:bg-slate-100 md:flex md:gap-x-6 md:rounded-full md:items-center md:pr-8 cursor-pointer"
+              onClick={setBookmark}
+            >
               <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fill-rule="evenodd">
-                  <circle fill={`${bookmarkOn? "hsl(176, 72%, 28%)" : "#2F2F2F"}`} cx="28" cy="28" r="28" />
-                  <path fill={`${bookmarkOn? "rgb(255, 255, 255)" : "#B1B1B1"}`} d="M23 19v18l5-5.058L33 37V19z" />
+                  <circle
+                    fill={`${bookmarkOn ? "hsl(176, 72%, 28%)" : "#2F2F2F"}`}
+                    cx="28"
+                    cy="28"
+                    r="28"
+                  />
+                  <path
+                    fill={`${bookmarkOn ? "rgb(255, 255, 255)" : "#B1B1B1"}`}
+                    d="M23 19v18l5-5.058L33 37V19z"
+                  />
                 </g>
               </svg>
-              <span className={`hidden md:inline font-bold ${bookmarkOn? "text-teal-600" : "text-slate-600"}`}>
-                {bookmarkOn? "Bookmarked" : "Bookmark"}
+              <span
+                className={`hidden md:inline font-bold ${
+                  bookmarkOn ? "text-teal-600" : "text-slate-600"
+                }`}
+              >
+                {bookmarkOn ? "Bookmarked" : "Bookmark"}
               </span>
             </div>
           </div>
         </div>
-        <div className="range"></div>
+        <div className="range w-full bg-white px-4 py-6">
+          <div className="flex flex-col md:flex-row gap-y-4 md:gap-y-0 md:gap-x-6">
+            <div className="">
+              <h2>$89,914</h2>
+              <span>of $100,000 backed</span>
+            </div>
+            <div className="">
+              <h2>5,007</h2>
+              <span>total backers</span>
+            </div>
+            <div className="">
+              <h2>56</h2>
+              <span>days left</span>
+            </div>
+          </div>
+          <div className="mt-6 w-9/12 h-[3vh] rounded-lg bg-slate-200">
+            <div className=""></div>
+          </div>
+        </div>
       </div>
-      <div className="">
-        
-      </div>
+      <div className=""></div>
     </main>
   );
 };
