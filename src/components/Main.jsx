@@ -89,7 +89,7 @@ const Main = () => {
           <h3 className="">
 
           </h3>
-          <p>
+          <p className="">
 
           </p>
           <p>
