@@ -92,7 +92,7 @@ const Main = () => {
           <p className="">
 
           </p>
-          <p>
+          <p className="">
 
           </p>
         </div>
