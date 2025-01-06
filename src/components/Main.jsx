@@ -85,7 +85,17 @@ const Main = () => {
             <div className="h-full w-9/12 bg-teal-500 rounded-lg"></div>
           </div>
         </div>
-        <div className="About w-full bg-white py-6 md:pl-8 xl:pl-12"></div>
+        <div className="About w-full bg-white py-6 md:pl-8 xl:pl-12">
+          <h3>
+
+          </h3>
+          <p>
+
+          </p>
+          <p>
+            
+          </p>
+        </div>
       </div>
       <div className=""></div>
     </main>
