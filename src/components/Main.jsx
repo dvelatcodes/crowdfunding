@@ -87,7 +87,7 @@ const Main = () => {
         </div>
         <div className="About w-full bg-white py-6 md:pl-8 xl:pl-12">
           <h3 className="">
-
+              About this project
           </h3>
           <p className="">
 
