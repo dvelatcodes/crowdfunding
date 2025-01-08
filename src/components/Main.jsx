@@ -85,7 +85,7 @@ const Main = () => {
             <div className="h-full w-9/12 bg-teal-500 rounded-lg"></div>
           </div>
         </div>
-        <div className="About w-full bg-white py-8 pl-4 md:pl-8 xl:pl-12 mt-12">
+        <div className="About w-full bg-white py-8 pl-4 pr-4 md:pl-8 xl:pl-12 mt-12">
           <h3 className="font-bold text-xl">About this project</h3>
           <p className="mt-6 text-zinc-500">
             The Mastercraft Bamboo Monitor Riser is a sturdy and stylish
