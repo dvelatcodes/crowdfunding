@@ -12,9 +12,9 @@ export const products = [
         pledge: "$75"
     },
     {
-        title: "",
+        title: "Mahogany Special Edition",
         description: "",
         price: "",
-        pledge: ""
+        pledge: "$200"
     },
 ]
