@@ -7,7 +7,7 @@ export const products = [
     },
     {
         title: "Black Edition Stand",
-        description: "You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer member list. Shipping is included.",
+        description: "You get a Black Special Edition computer stand and a personal thank you. You'll be added to our Backer member list. Shipping is included.",
         price: 64,
         pledge: "$75"
     },
