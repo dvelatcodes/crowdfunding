@@ -94,7 +94,7 @@ const Main = () => {
             improve your posture and make you more comfortable while at work,
             helping you stay focused on the task at hand.
           </p>
-          <p className="mt-6 text-zinc-500">
+          <p className="mt-6 text-zinc-500 mb-6">
             Featuring artisan craftsmanship, the simplicity of design creates
             extra desk space below your computer to allow notepads, pens, and
             USB sticks to be stored under the stand.
