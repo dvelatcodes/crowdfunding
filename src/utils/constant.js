@@ -2,7 +2,7 @@ export const products = [
     {
         title: "Bamboo Stand",
         description: "You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and you'll be added to a special Backer member list.",
-        price: "",
+        price: "101",
         pledge: "$25"
     },
     {
