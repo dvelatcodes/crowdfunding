@@ -1,4 +1,9 @@
 export const products = [
-    {title: ""},
+    {
+        title: "",
+        description: "",
+        price: "",
+        pledge: ""
+    },
     
 ]
