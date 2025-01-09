@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Button from "./Button";
+import { Product } from "./main-contents";
 
 const Main = () => {
   const [bookmarkOn, setBookmarkOn] = useState(false);
@@ -99,6 +100,7 @@ const Main = () => {
             extra desk space below your computer to allow notepads, pens, and
             USB sticks to be stored under the stand.
           </p>
+          <Product/>
         </div>
       </div>
       <div className=""></div>
