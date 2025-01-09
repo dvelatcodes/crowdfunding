@@ -6,10 +6,10 @@ export const products = [
         pledge: "$25"
     },
     {
-        title: "",
+        title: "Black Edition Stand",
         description: "",
-        price: "",
-        pledge: ""
+        price: "64",
+        pledge: "$75"
     },
     {
         title: "",
