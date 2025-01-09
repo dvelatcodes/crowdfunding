@@ -11,4 +11,10 @@ export const products = [
         price: "",
         pledge: ""
     },
+    {
+        title: "",
+        description: "",
+        price: "",
+        pledge: ""
+    },
 ]
